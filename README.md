@@ -1,3 +1,1 @@
-# Naatyu.github.io
-
-Personnal Website
+# Personnal Website
