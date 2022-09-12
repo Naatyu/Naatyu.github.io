@@ -12,11 +12,6 @@
 	background-position: center;
 }
 
-.logo img{
-   -webkit-filter: invert(1);
-   filter: invert(1);
-}
-
 .contact{
 	width: 85%;
 	margin:  auto;
