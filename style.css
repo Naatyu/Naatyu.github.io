@@ -58,15 +58,13 @@ body{
 
 .MagNav{
 	width: 60%;
-	background-color: #fff;
 	border-radius: 6px;
 	justify-content: center;
 	display: flex;
 	transition: transform .5s;
-
+	background: inherit;
 	top: calc(50% - 175px);
 	left: calc(50% - 125px);
-	background: inherit;
 	overflow: hidden;
 }
 
