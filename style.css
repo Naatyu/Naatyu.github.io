@@ -31,7 +31,7 @@ body{
 .contact ul li a{
 	text-decoration: none;
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 }
 .contact ul li::after{
 	content: '';
@@ -47,12 +47,12 @@ body{
 	width: 100%;
 }
 .head img{
-	width: 200px;
+	width: 190px;
 	height: auto;
 }
 .head span{
 	color: #fff;
-	font-size: 40px;
+	font-size: 38px;
 }
 
 .MagNav{
@@ -72,7 +72,7 @@ body{
 	border-radius: 50%;
 	width: 35px;
 	height: 35px;
-	margin-left: 7px;
+	margin-left: 8px;
 }
 
 .MagNav .links{
@@ -81,12 +81,12 @@ body{
 	margin-top: 5px;
 }
 .MagNav .links .github img{
-	width: 35px;
-	height: 35px;
+	width: 31px;
+	height: 31px;
 }
 .MagNav .links .dl img{
-	width: 25px;
-	height: 25px;
+	width: 23px;
+	height: 23px;
 	padding-top: 8px;
 	margin-left: 7px;
 	margin-right: 13px;
@@ -101,9 +101,10 @@ body{
 .MagNav .content .head{
 	display: flex;
 	margin-bottom: 15px;
+	font-size: 15px;
 }
 .MagNav .content p{
 	margin-bottom: 8px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 }
