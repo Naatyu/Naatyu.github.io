@@ -12,6 +12,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+	-webkit-font-smoothing: antialiased; 
 }
 
 .contact{
@@ -62,10 +63,29 @@ body{
 	justify-content: center;
 	display: flex;
 	transition: transform .5s;
-	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+	top: calc(50% - 175px);
+	left: calc(50% - 125px);
+	background: inherit;
+	overflow: hidden;
 }
+
 .MagNav:hover{
 	transform: scale(1.03);
+}
+
+.MagNav:after{
+	content: '';
+	width: 1500px;
+	height: auto;
+	background: inherit; 
+	position: absolute;
+	left: -25px;
+	right: 0;
+	top: -25px;  
+	bottom: -25px;
+	box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.123);
+	filter: blur(13px);
 }
 
 .MagNav .content .head img{
@@ -90,18 +110,18 @@ body{
 	padding-top: 8px;
 	margin-left: 7px;
 	margin-right: 13px;
+	filter: invert(1);
 }
-
 .MagNav .content{
 	padding-top: 15px;
 	padding-left: 20px;
 	padding-right: 15px;
 	padding-bottom: 10px;
+	color: #fff;
 }
 .MagNav .content .head{
 	display: flex;
 	margin-bottom: 15px;
-	font-size: 15px;
 }
 .MagNav .content p{
 	margin-bottom: 8px;
