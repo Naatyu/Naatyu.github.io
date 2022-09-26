@@ -10,13 +10,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Nathan Laoué</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" href="ia.png">
+	<link rel="icon" href="images/ia.png">
 </head>
 
 <body>
 
 	<div class="head">
-		<img src="profile.png" style="position: absolute; top: 20px; left: 0px;">
+		<img src="images/profile.png" style="position: absolute; top: 20px; left: 0px;">
 		<span style="position: absolute; top: 55px; left: 170px;">Nathan Laoué</span>
 		<div class="contact">
 			<ul>
@@ -27,28 +27,57 @@
 		</div>
 	</div>
 
-	<div class="MagNav" style="position: absolute; left: 20%; top: 255px;">
+	<div class="projects" style="position: relative; left: 19%; top: 5%">
 
-		<div class="content" style="position:relative; z-index: 9999">
-			<div class="head">
-				<h1>Magnetic Navigation</h1>
-				<img src="earthmag.gif"></img>
+		<div class="MagNav" style=" left: 0%;">
+
+			<div class="content" style="position:relative; z-index: 9999">
+				<div class="head">
+					<h1>Magnetic Navigation</h1>
+					<img src="images/navigator.png"></img>
+				</div>
+				<p>
+					Magnetic navigation is a way to obtain a position on Earth without GPS. Moreover, this navigation system is passive and cannot be jammed. However, there is only one problem: the disturbance of the measurements by the carrier.<br>
+					There is currently the "Tolles-Lawson" method, but it is insufficient for onboard magnetometers. My work therefore aimed to study compensations using different artificial intelligence models. This work has shown that neural networks can improve the performance of compensation compared to Tolles-Lawson up to 50% on some sections of flight mainly through a convolutional network.<br><br>
+					For more information a link to Github with the complete code and the report on this subject are available.
+				</p>
 			</div>
-			<p>
-				Magnetic navigation is a way to obtain a position on Earth without GPS. Moreover, this navigation system is passive and cannot be jammed. However, there is only one problem: the disturbance of the measurements by the carrier.<br>
-				There is currently the "Tolles-Lawson" method, but it is insufficient for onboard magnetometers. My work therefore aimed to study compensations using different artificial intelligence models. This work has shown that neural networks can improve the performance of compensation compared to Tolles-Lawson up to 50% on some sections of flight mainly through a convolutional network.<br><br>
-				For more information a link to Github with the complete code and the report on this subject are available.
-			</p>
+			
+			<div class="links" style="position:relative; z-index: 9999">
+				<div class="github">
+					<a target="_blank" href="https://github.com/Naatyu/MagNav"><img src="images/GitHub-Mark-Light-32px.png"></img></a>
+				</div>
+				<div class="dl">
+					<a target="_blank" href="https://github.com/Naatyu/MagNav/raw/main/reports/Report%20Magnetic%20Navigation.pdf"><img src="images/download.png"></img></a>
+				</div>
+			</div>
 		</div>
-		
-	    <div class="links" style="position:relative; z-index: 9999">
-			<div class="github">
-				<a target="_blank" href="https://github.com/Naatyu/MagNav"><img src="GitHub-Mark-Light-32px.png"></img></a>
+
+		<div class="Rainapp" style="left: 0%;">
+
+			<div class="content" style="position:relative; z-index: 9999">
+				<div class="head">
+					<h1>Rain Gauge application</h1>
+					<img src="images/raining.png"></img>
+				</div>
+				<p>
+					Recently I saw my father taking rain readings in a small notebook. When I opened the notebook I saw a large number of records. As a data scientist, it seemed a shame not to use all this data.<br>
+					So I thought it would be interesting to create an application (under android because that's what my father and I use) to save all this data but also to have some info on this data like the average rain value per month. Moreover it would allow to save the rain records in a more secure way.<br><br>
+					Clicking on the icon launches the download of the application's apk.
+				</p>
 			</div>
-			<div class="dl">
-				<a target="_blank" href="https://github.com/Naatyu/MagNav/raw/main/reports/Report%20Magnetic%20Navigation.pdf"><img src="download.png"></img></a>
+			
+			<div class="links" style="position:relative; z-index: 9999">
+				<div class="github">
+					<a target="_blank" href="https://github.com/Naatyu/Rain_app"><img src="images/GitHub-Mark-Light-32px.png"></img></a>
+				</div>
+				<div class="dl">
+					<a target="_blank" href="https://github.com/Naatyu/Rain_app/raw/main/app/debug/app-debug.apk"><img src="images/download.png"></img></a>
+				</div>
 			</div>
 		</div>
+
+
 	</div>
 
 </body>

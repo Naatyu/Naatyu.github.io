@@ -4,16 +4,21 @@
 	font-family: Questrial;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 0px;
+  }
+
 body{
 	width: 100%;
-	height: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url(background.jpg);
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url(images/background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
+
 
 .contact{
 	width: 95%;
@@ -56,15 +61,22 @@ body{
 	font-size: 38px;
 }
 
-.MagNav{
+.projects{
 	width: 60%;
+	height: 70%;
+	margin-bottom: 2%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 1%;
+}
+
+.MagNav{
 	border-radius: 6px;
 	justify-content: center;
 	display: flex;
 	transition: transform .5s;
-	background: inherit;
-	top: calc(60% - 175px);
-	left: calc(50% - 125px);
+	background: linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url(images/background.jpg);
+	background-position: 35% 25%;
 	overflow: hidden;
 	position: relative;
 }
@@ -86,10 +98,9 @@ body{
 }
 
 .MagNav .content .head img{
-	border-radius: 50%;
 	width: 35px;
 	height: 35px;
-	margin-left: 8px;
+	margin-left: 10px;
 }
 
 .MagNav .links{
@@ -121,6 +132,76 @@ body{
 	margin-bottom: 15px;
 }
 .MagNav .content p{
+	margin-bottom: 8px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+
+
+.Rainapp{
+	margin-top: 2.5%;
+	border-radius: 6px;
+	justify-content: center;
+	display: flex;
+	transition: transform .5s;
+	background: linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url(images/background.jpg);
+	background-position: 80% 80%;
+	overflow: hidden;
+	position: relative;
+}
+.Rainapp:hover{
+	transform: scale(1.03);
+}
+.Rainapp:after{
+	content: '';
+	width: 1500px;
+	height: auto;
+	background: inherit;
+	position: absolute;
+	left: -25px;
+	right: 0;
+	top: -25px;  
+	bottom: -25px;
+	box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.123);
+	filter: blur(25px);
+}
+
+.Rainapp .content .head img{
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+}
+
+.Rainapp .links{
+	padding: 5px;
+	display: flex;
+	margin-top: 5px;
+}
+.Rainapp .links .github img{
+	width: 31px;
+	height: 31px;
+}
+.Rainapp .links .dl img{
+	width: 23px;
+	height: 23px;
+	padding-top: 8px;
+	margin-left: 7px;
+	margin-right: 13px;
+	filter: invert(1);
+}
+.Rainapp .content{
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+.Rainapp .content .head{
+	display: flex;
+	margin-bottom: 15px;
+}
+.Rainapp .content p{
 	margin-bottom: 8px;
 	font-size: 16px;
 	line-height: 22px;
